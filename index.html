@@ -26,6 +26,13 @@
   </p>
 </section>
 
+<section class="demo-video">
+  <h2>Live Demo</h2>
+  <div class="video-embed">
+    <iframe src="https://www.youtube.com/embed/jPz_zgrdksY" title="MoveGPT Live Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</section>
+
 <section class="samples">
   <h2>Baseline Comparisons</h2>
   <div class="baseline-list">
@@ -39,7 +46,8 @@
   <div class="col-header">
     <span>&nbsp;</span>
     <span>Ground Truth</span>
-    <span>Ours</span>
+    <span>Ours (7s context)</span>
+    <span>Ours (1s context)</span>
     <span><a href="https://link.springer.com/article/10.1186/s13636-024-00370-6" target="_blank" rel="noopener" style="color:#555;text-decoration:none;border-bottom:1px solid #ccc;">D2M-Diffusion</a></span>
   </div>
 
@@ -60,6 +68,11 @@
     <div class="cell" data-label="Ours">
       <video controls preload="metadata">
         <source src="best_per_genre/gBR_sBM_cAll_d04_mBR0_ch02_seg000_generated.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="cell" data-label="Ours (1s context)">
+      <video controls preload="metadata">
+        <source src="best_per_genre_1s_window/gBR_sBM_cAll_d04_mBR0_ch02_seg000_1s.mp4" type="video/mp4" />
       </video>
     </div>
     <div class="cell" data-label="D2M-Diffusion">
@@ -87,6 +100,11 @@
         <source src="best_per_genre/gHO_sBM_cAll_d21_mHO5_ch02_seg000_generated.mp4" type="video/mp4" />
       </video>
     </div>
+    <div class="cell" data-label="Ours (1s context)">
+      <video controls preload="metadata">
+        <source src="best_per_genre_1s_window/gHO_sBM_cAll_d21_mHO5_ch02_seg000_1s.mp4" type="video/mp4" />
+      </video>
+    </div>
     <div class="cell" data-label="D2M-Diffusion">
       <video controls preload="metadata">
         <source src="best_per_genre_d2m/gHO_sBM_cAll_d21_mHO5_ch02_seg000_d2m.mp4" type="video/mp4" />
@@ -110,6 +128,11 @@
     <div class="cell" data-label="Ours">
       <video controls preload="metadata">
         <source src="best_per_genre/gJB_sBM_cAll_d09_mJB5_ch02_seg000_generated.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="cell" data-label="Ours (1s context)">
+      <video controls preload="metadata">
+        <source src="best_per_genre_1s_window/gJB_sBM_cAll_d09_mJB5_ch02_seg000_1s.mp4" type="video/mp4" />
       </video>
     </div>
     <div class="cell" data-label="D2M-Diffusion">
@@ -137,6 +160,11 @@
         <source src="best_per_genre/gJS_sBM_cAll_d01_mJS3_ch02_seg001_generated.mp4" type="video/mp4" />
       </video>
     </div>
+    <div class="cell" data-label="Ours (1s context)">
+      <video controls preload="metadata">
+        <source src="best_per_genre_1s_window/gJS_sBM_cAll_d01_mJS3_ch02_seg001_1s.mp4" type="video/mp4" />
+      </video>
+    </div>
     <div class="cell" data-label="D2M-Diffusion">
       <video controls preload="metadata">
         <source src="best_per_genre_d2m/gJS_sBM_cAll_d01_mJS3_ch02_seg001_d2m.mp4" type="video/mp4" />
@@ -160,6 +188,11 @@
     <div class="cell" data-label="Ours">
       <video controls preload="metadata">
         <source src="best_per_genre/gKR_sBM_cAll_d28_mKR2_ch02_seg002_generated.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="cell" data-label="Ours (1s context)">
+      <video controls preload="metadata">
+        <source src="best_per_genre_1s_window/gKR_sBM_cAll_d28_mKR2_ch02_seg002_1s.mp4" type="video/mp4" />
       </video>
     </div>
     <div class="cell" data-label="D2M-Diffusion">
@@ -187,6 +220,11 @@
         <source src="best_per_genre/gLH_sBM_cAll_d17_mLH4_ch02_seg001_generated.mp4" type="video/mp4" />
       </video>
     </div>
+    <div class="cell" data-label="Ours (1s context)">
+      <video controls preload="metadata">
+        <source src="best_per_genre_1s_window/gLH_sBM_cAll_d17_mLH4_ch02_seg001_1s.mp4" type="video/mp4" />
+      </video>
+    </div>
     <div class="cell" data-label="D2M-Diffusion">
       <video controls preload="metadata">
         <source src="best_per_genre_d2m/gLH_sBM_cAll_d17_mLH4_ch02_seg001_d2m.mp4" type="video/mp4" />
@@ -210,6 +248,11 @@
     <div class="cell" data-label="Ours">
       <video controls preload="metadata">
         <source src="best_per_genre/gLO_sBM_cAll_d13_mLO2_ch02_seg001_generated.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="cell" data-label="Ours (1s context)">
+      <video controls preload="metadata">
+        <source src="best_per_genre_1s_window/gLO_sBM_cAll_d13_mLO2_ch02_seg001_1s.mp4" type="video/mp4" />
       </video>
     </div>
     <div class="cell" data-label="D2M-Diffusion">
@@ -237,6 +280,11 @@
         <source src="best_per_genre/gMH_sBM_cAll_d22_mMH3_ch02_seg001_generated.mp4" type="video/mp4" />
       </video>
     </div>
+    <div class="cell" data-label="Ours (1s context)">
+      <video controls preload="metadata">
+        <source src="best_per_genre_1s_window/gMH_sBM_cAll_d22_mMH3_ch02_seg001_1s.mp4" type="video/mp4" />
+      </video>
+    </div>
     <div class="cell" data-label="D2M-Diffusion">
       <video controls preload="metadata">
         <source src="best_per_genre_d2m/gMH_sBM_cAll_d22_mMH3_ch02_seg001_d2m.mp4" type="video/mp4" />
@@ -262,6 +310,11 @@
         <source src="best_per_genre/gPO_sBM_cAll_d11_mPO1_ch02_seg000_generated.mp4" type="video/mp4" />
       </video>
     </div>
+    <div class="cell" data-label="Ours (1s context)">
+      <video controls preload="metadata">
+        <source src="best_per_genre_1s_window/gPO_sBM_cAll_d11_mPO1_ch02_seg000_1s.mp4" type="video/mp4" />
+      </video>
+    </div>
     <div class="cell" data-label="D2M-Diffusion">
       <video controls preload="metadata">
         <source src="best_per_genre_d2m/gPO_sBM_cAll_d11_mPO1_ch02_seg000_d2m.mp4" type="video/mp4" />
@@ -285,6 +338,11 @@
     <div class="cell" data-label="Ours">
       <video controls preload="metadata">
         <source src="best_per_genre/gWA_sBM_cAll_d25_mWA0_ch02_seg002_generated.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="cell" data-label="Ours (1s context)">
+      <video controls preload="metadata">
+        <source src="best_per_genre_1s_window/gWA_sBM_cAll_d25_mWA0_ch02_seg002_1s.mp4" type="video/mp4" />
       </video>
     </div>
     <div class="cell" data-label="D2M-Diffusion">
