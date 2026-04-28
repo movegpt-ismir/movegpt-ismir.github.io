@@ -142,7 +142,7 @@
       width: 100%;
       max-width: 280px;
       border-radius: 6px;
-      background: #000;
+      background: #e8e8e8;
       outline: none;
     }
 
@@ -199,14 +199,14 @@
   </p>
   <div class="author-links">
     <a href="#">Paper (Anonymous)</a>
-    <a href="#">ISMIR 2025</a>
+    <a href="#">ISMIR 2026</a>
   </div>
 </header>
 
 <section class="abstract">
   <h2>Abstract</h2>
   <p>
-    hi
+    We present MoveGPT, an autoregressive transformer for music generation conditioned on dancer motion captured by a depth-stereo camera. Existing motion-to-music systems either require complete motion sequences as input, precluding real-time use, or manipulate a fixed pretrained audio latent space rather than generating novel musical content. MoveGPT aims to bridge both gaps by causally predicting Descript Audio Codec (DAC) audio tokens at 50 FPS, conditioned on SMPL-normalized motion embeddings and past audio context, then decoding them back to waveforms. The model is pre-trained on over 4k hours of music from the MTG-Jamendo dataset with no motion conditioning and fine-tuned on motion-audio pairs from the AIST++ dataset. We achieve continuous real-time playback through a multi-threaded pipeline that synthesizes and streams audio chunks in parallel. We evaluate rhythmic alignment against six published dance-to-music baselines, achieving competitive motion-beat synchronization despite the constraints of fully causal generation. To our knowledge, MoveGPT is the first end-to-end pipeline that converts live depth-stereo camera input into continuously streamed audio, opening a path toward interactive human–AI co-creation in live performance.
   </p>
 </section>
 
@@ -217,193 +217,213 @@
     <span>&nbsp;</span>
     <span>Ground Truth</span>
     <span>Ours</span>
-    <span>D2M-Diffusion</span>
+    <span><a href="https://link.springer.com/article/10.1186/s13636-024-00370-6" target="_blank" rel="noopener" style="color:#555;text-decoration:none;border-bottom:1px solid #ccc;">D2M-Diffusion</a></span>
   </div>
 
   <!-- Example 1 -->
   <div class="example-row">
-    <div class="row-label"><strong>Example 1</strong>gJS · d01 · seg001</div>
+    <div class="row-label"><strong>Example 1</strong></div>
     <div class="cell" data-label="Ground Truth">
-      <video controls preload="none">
-        <source src="top10_betsdvlg_white/gJS_sBM_cAll_d01_mJS3_ch02_seg001_original.mp4" type="video/mp4" />
+      <video controls preload="metadata">
+        <source src="best_per_genre/gBR_sBM_cAll_d04_mBR0_ch02_seg000_original.mp4" type="video/mp4" />
       </video>
     </div>
     <div class="cell" data-label="Ours">
-      <video controls preload="none">
-        <source src="top10_betsdvlg_white/gJS_sBM_cAll_d01_mJS3_ch02_seg001_generated.mp4" type="video/mp4" />
+      <video controls preload="metadata">
+        <source src="best_per_genre/gBR_sBM_cAll_d04_mBR0_ch02_seg000_generated.mp4" type="video/mp4" />
       </video>
     </div>
     <div class="cell" data-label="D2M-Diffusion">
-      <div class="placeholder">D2M-Diffusion<br/>coming soon</div>
+      <video controls preload="metadata">
+        <source src="best_per_genre_d2m/gBR_sBM_cAll_d04_mBR0_ch02_seg000_d2m.mp4" type="video/mp4" />
+      </video>
     </div>
   </div>
 
   <!-- Example 2 -->
   <div class="example-row">
-    <div class="row-label"><strong>Example 2</strong>gBR · d04 · seg000</div>
+    <div class="row-label"><strong>Example 2</strong></div>
     <div class="cell" data-label="Ground Truth">
-      <video controls preload="none">
-        <source src="top10_betsdvlg_white/gBR_sBM_cAll_d04_mBR0_ch02_seg000_original.mp4" type="video/mp4" />
+      <video controls preload="metadata">
+        <source src="best_per_genre/gHO_sBM_cAll_d21_mHO5_ch02_seg000_original.mp4" type="video/mp4" />
       </video>
     </div>
     <div class="cell" data-label="Ours">
-      <video controls preload="none">
-        <source src="top10_betsdvlg_white/gBR_sBM_cAll_d04_mBR0_ch02_seg000_generated.mp4" type="video/mp4" />
+      <video controls preload="metadata">
+        <source src="best_per_genre/gHO_sBM_cAll_d21_mHO5_ch02_seg000_generated.mp4" type="video/mp4" />
       </video>
     </div>
     <div class="cell" data-label="D2M-Diffusion">
-      <div class="placeholder">D2M-Diffusion<br/>coming soon</div>
+      <video controls preload="metadata">
+        <source src="best_per_genre_d2m/gHO_sBM_cAll_d21_mHO5_ch02_seg000_d2m.mp4" type="video/mp4" />
+      </video>
     </div>
   </div>
 
   <!-- Example 3 -->
   <div class="example-row">
-    <div class="row-label"><strong>Example 3</strong>gBR · d04 · seg002</div>
+    <div class="row-label"><strong>Example 3</strong></div>
     <div class="cell" data-label="Ground Truth">
-      <video controls preload="none">
-        <source src="top10_betsdvlg_white/gBR_sBM_cAll_d04_mBR0_ch02_seg002_original.mp4" type="video/mp4" />
+      <video controls preload="metadata">
+        <source src="best_per_genre/gJB_sBM_cAll_d09_mJB5_ch02_seg000_original.mp4" type="video/mp4" />
       </video>
     </div>
     <div class="cell" data-label="Ours">
-      <video controls preload="none">
-        <source src="top10_betsdvlg_white/gBR_sBM_cAll_d04_mBR0_ch02_seg002_generated.mp4" type="video/mp4" />
+      <video controls preload="metadata">
+        <source src="best_per_genre/gJB_sBM_cAll_d09_mJB5_ch02_seg000_generated.mp4" type="video/mp4" />
       </video>
     </div>
     <div class="cell" data-label="D2M-Diffusion">
-      <div class="placeholder">D2M-Diffusion<br/>coming soon</div>
+      <video controls preload="metadata">
+        <source src="best_per_genre_d2m/gJB_sBM_cAll_d09_mJB5_ch02_seg000_d2m.mp4" type="video/mp4" />
+      </video>
     </div>
   </div>
 
   <!-- Example 4 -->
   <div class="example-row">
-    <div class="row-label"><strong>Example 4</strong>gJB · d09 · seg000</div>
+    <div class="row-label"><strong>Example 4</strong></div>
     <div class="cell" data-label="Ground Truth">
-      <video controls preload="none">
-        <source src="top10_betsdvlg_white/gJB_sBM_cAll_d09_mJB5_ch02_seg000_original.mp4" type="video/mp4" />
+      <video controls preload="metadata">
+        <source src="best_per_genre/gJS_sBM_cAll_d01_mJS3_ch02_seg001_original.mp4" type="video/mp4" />
       </video>
     </div>
     <div class="cell" data-label="Ours">
-      <video controls preload="none">
-        <source src="top10_betsdvlg_white/gJB_sBM_cAll_d09_mJB5_ch02_seg000_generated.mp4" type="video/mp4" />
+      <video controls preload="metadata">
+        <source src="best_per_genre/gJS_sBM_cAll_d01_mJS3_ch02_seg001_generated.mp4" type="video/mp4" />
       </video>
     </div>
     <div class="cell" data-label="D2M-Diffusion">
-      <div class="placeholder">D2M-Diffusion<br/>coming soon</div>
+      <video controls preload="metadata">
+        <source src="best_per_genre_d2m/gJS_sBM_cAll_d01_mJS3_ch02_seg001_d2m.mp4" type="video/mp4" />
+      </video>
     </div>
   </div>
 
   <!-- Example 5 -->
   <div class="example-row">
-    <div class="row-label"><strong>Example 5</strong>gLO · d15 · seg000</div>
+    <div class="row-label"><strong>Example 5</strong></div>
     <div class="cell" data-label="Ground Truth">
-      <video controls preload="none">
-        <source src="top10_betsdvlg_white/gLO_sBM_cAll_d15_mLO2_ch02_seg000_original.mp4" type="video/mp4" />
+      <video controls preload="metadata">
+        <source src="best_per_genre/gKR_sBM_cAll_d28_mKR2_ch02_seg002_original.mp4" type="video/mp4" />
       </video>
     </div>
     <div class="cell" data-label="Ours">
-      <video controls preload="none">
-        <source src="top10_betsdvlg_white/gLO_sBM_cAll_d15_mLO2_ch02_seg000_generated.mp4" type="video/mp4" />
+      <video controls preload="metadata">
+        <source src="best_per_genre/gKR_sBM_cAll_d28_mKR2_ch02_seg002_generated.mp4" type="video/mp4" />
       </video>
     </div>
     <div class="cell" data-label="D2M-Diffusion">
-      <div class="placeholder">D2M-Diffusion<br/>coming soon</div>
+      <video controls preload="metadata">
+        <source src="best_per_genre_d2m/gKR_sBM_cAll_d28_mKR2_ch02_seg002_d2m.mp4" type="video/mp4" />
+      </video>
     </div>
   </div>
 
   <!-- Example 6 -->
   <div class="example-row">
-    <div class="row-label"><strong>Example 6</strong>gLO · d15 · seg001</div>
+    <div class="row-label"><strong>Example 6</strong></div>
     <div class="cell" data-label="Ground Truth">
-      <video controls preload="none">
-        <source src="top10_betsdvlg_white/gLO_sBM_cAll_d15_mLO2_ch02_seg001_original.mp4" type="video/mp4" />
+      <video controls preload="metadata">
+        <source src="best_per_genre/gLH_sBM_cAll_d17_mLH4_ch02_seg001_original.mp4" type="video/mp4" />
       </video>
     </div>
     <div class="cell" data-label="Ours">
-      <video controls preload="none">
-        <source src="top10_betsdvlg_white/gLO_sBM_cAll_d15_mLO2_ch02_seg001_generated.mp4" type="video/mp4" />
+      <video controls preload="metadata">
+        <source src="best_per_genre/gLH_sBM_cAll_d17_mLH4_ch02_seg001_generated.mp4" type="video/mp4" />
       </video>
     </div>
     <div class="cell" data-label="D2M-Diffusion">
-      <div class="placeholder">D2M-Diffusion<br/>coming soon</div>
+      <video controls preload="metadata">
+        <source src="best_per_genre_d2m/gLH_sBM_cAll_d17_mLH4_ch02_seg001_d2m.mp4" type="video/mp4" />
+      </video>
     </div>
   </div>
 
   <!-- Example 7 -->
   <div class="example-row">
-    <div class="row-label"><strong>Example 7</strong>gLH · d17 · seg001</div>
+    <div class="row-label"><strong>Example 7</strong></div>
     <div class="cell" data-label="Ground Truth">
-      <video controls preload="none">
-        <source src="top10_betsdvlg_white/gLH_sBM_cAll_d17_mLH4_ch02_seg001_original.mp4" type="video/mp4" />
+      <video controls preload="metadata">
+        <source src="best_per_genre/gLO_sBM_cAll_d13_mLO2_ch02_seg001_original.mp4" type="video/mp4" />
       </video>
     </div>
     <div class="cell" data-label="Ours">
-      <video controls preload="none">
-        <source src="top10_betsdvlg_white/gLH_sBM_cAll_d17_mLH4_ch02_seg001_generated.mp4" type="video/mp4" />
+      <video controls preload="metadata">
+        <source src="best_per_genre/gLO_sBM_cAll_d13_mLO2_ch02_seg001_generated.mp4" type="video/mp4" />
       </video>
     </div>
     <div class="cell" data-label="D2M-Diffusion">
-      <div class="placeholder">D2M-Diffusion<br/>coming soon</div>
+      <video controls preload="metadata">
+        <source src="best_per_genre_d2m/gLO_sBM_cAll_d13_mLO2_ch02_seg001_d2m.mp4" type="video/mp4" />
+      </video>
     </div>
   </div>
 
   <!-- Example 8 -->
   <div class="example-row">
-    <div class="row-label"><strong>Example 8</strong>gWA · d26 · seg003</div>
+    <div class="row-label"><strong>Example 8</strong></div>
     <div class="cell" data-label="Ground Truth">
-      <video controls preload="none">
-        <source src="top10_betsdvlg_white/gWA_sBM_cAll_d26_mWA0_ch02_seg003_original.mp4" type="video/mp4" />
+      <video controls preload="metadata">
+        <source src="best_per_genre/gMH_sBM_cAll_d22_mMH3_ch02_seg001_original.mp4" type="video/mp4" />
       </video>
     </div>
     <div class="cell" data-label="Ours">
-      <video controls preload="none">
-        <source src="top10_betsdvlg_white/gWA_sBM_cAll_d26_mWA0_ch02_seg003_generated.mp4" type="video/mp4" />
+      <video controls preload="metadata">
+        <source src="best_per_genre/gMH_sBM_cAll_d22_mMH3_ch02_seg001_generated.mp4" type="video/mp4" />
       </video>
     </div>
     <div class="cell" data-label="D2M-Diffusion">
-      <div class="placeholder">D2M-Diffusion<br/>coming soon</div>
+      <video controls preload="metadata">
+        <source src="best_per_genre_d2m/gMH_sBM_cAll_d22_mMH3_ch02_seg001_d2m.mp4" type="video/mp4" />
+      </video>
     </div>
   </div>
 
   <!-- Example 9 -->
   <div class="example-row">
-    <div class="row-label"><strong>Example 9</strong>gKR · d28 · seg002</div>
+    <div class="row-label"><strong>Example 9</strong></div>
     <div class="cell" data-label="Ground Truth">
-      <video controls preload="none">
-        <source src="top10_betsdvlg_white/gKR_sBM_cAll_d28_mKR2_ch02_seg002_original.mp4" type="video/mp4" />
+      <video controls preload="metadata">
+        <source src="best_per_genre/gPO_sBM_cAll_d11_mPO1_ch02_seg000_original.mp4" type="video/mp4" />
       </video>
     </div>
     <div class="cell" data-label="Ours">
-      <video controls preload="none">
-        <source src="top10_betsdvlg_white/gKR_sBM_cAll_d28_mKR2_ch02_seg002_generated.mp4" type="video/mp4" />
+      <video controls preload="metadata">
+        <source src="best_per_genre/gPO_sBM_cAll_d11_mPO1_ch02_seg000_generated.mp4" type="video/mp4" />
       </video>
     </div>
     <div class="cell" data-label="D2M-Diffusion">
-      <div class="placeholder">D2M-Diffusion<br/>coming soon</div>
+      <video controls preload="metadata">
+        <source src="best_per_genre_d2m/gPO_sBM_cAll_d11_mPO1_ch02_seg000_d2m.mp4" type="video/mp4" />
+      </video>
     </div>
   </div>
 
   <!-- Example 10 -->
   <div class="example-row">
-    <div class="row-label"><strong>Example 10</strong>gKR · d30 · seg002</div>
+    <div class="row-label"><strong>Example 10</strong></div>
     <div class="cell" data-label="Ground Truth">
-      <video controls preload="none">
-        <source src="top10_betsdvlg_white/gKR_sBM_cAll_d30_mKR2_ch02_seg002_original.mp4" type="video/mp4" />
+      <video controls preload="metadata">
+        <source src="best_per_genre/gWA_sBM_cAll_d25_mWA0_ch02_seg002_original.mp4" type="video/mp4" />
       </video>
     </div>
     <div class="cell" data-label="Ours">
-      <video controls preload="none">
-        <source src="top10_betsdvlg_white/gKR_sBM_cAll_d30_mKR2_ch02_seg002_generated.mp4" type="video/mp4" />
+      <video controls preload="metadata">
+        <source src="best_per_genre/gWA_sBM_cAll_d25_mWA0_ch02_seg002_generated.mp4" type="video/mp4" />
       </video>
     </div>
     <div class="cell" data-label="D2M-Diffusion">
-      <div class="placeholder">D2M-Diffusion<br/>coming soon</div>
+      <video controls preload="metadata">
+        <source src="best_per_genre_d2m/gWA_sBM_cAll_d25_mWA0_ch02_seg002_d2m.mp4" type="video/mp4" />
+      </video>
     </div>
   </div>
 
 </section>
 
 <footer>
-  Anonymous submission · ISMIR 2025
+  Anonymous submission · ISMIR 2026
 </footer>
 
 </body>
