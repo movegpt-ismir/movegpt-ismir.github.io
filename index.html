@@ -28,16 +28,11 @@
 
 <section class="samples">
   <h2>Baseline Comparisons</h2>
-  <dl class="baseline-list">
-    <dt>Ground Truth</dt>
-    <dd>Original audio from the AIST++ dataset paired with the motion capture sequence.</dd>
-    
-    <dt>Ours (MoveGPT)</dt>
-    <dd>Real-time causal music generation from live motion capture at 50 FPS with one-second context window.</dd>
-    
-    <dt>D2M-Diffusion <span style="font-weight: 400; font-size: 0.9em;">(not real-time)</span></dt>
-    <dd>State-of-the-art non-causal dance-to-music baseline requiring complete motion sequences before generating audio.</dd>
-  </dl>
+  <div class="baseline-list">
+    <p><strong>Ground Truth:</strong> Original audio from the AIST++ dataset paired with the motion capture sequence.</p>
+    <p><strong>Ours (MoveGPT):</strong> Real-time causal music generation from live motion capture at 50 FPS with one-second context window.</p>
+    <p><strong>D2M-Diffusion (not real-time):</strong> State-of-the-art non-causal dance-to-music baseline requiring complete motion sequences before generating audio.</p>
+  </div>
 
   <h2>Audio Samples</h2>
 
@@ -50,7 +45,11 @@
 
   <!-- Example 1 -->
   <div class="example-row">
-    <div class="row-label"><strong>Example 1</strong></div>
+    <div class="row-label">
+      <strong>Example 1</strong>
+      <hr class="example-divider">
+      <p class="example-comment">Kicking actions match the music beats well.</p>
+    </div>
     <div class="cell" data-label="Ground Truth">
       <video controls preload="metadata">
         <source src="best_per_genre/gBR_sBM_cAll_d04_mBR0_ch02_seg000_original.mp4" type="video/mp4" />
