@@ -156,6 +156,24 @@ video {
   padding: 12px;
 }
 
+/* ── Baseline Comparisons Definition List ── */
+.baseline-list {
+  margin-bottom: 24px;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.baseline-list dt {
+  font-weight: 600;
+  color: #111;
+  margin-top: 8px;
+}
+
+.baseline-list dd {
+  margin-left: 16px;
+  margin-bottom: 12px;
+}
+
 /* ── Footer ── */
 footer {
   text-align: center;
