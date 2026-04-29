@@ -5,49 +5,48 @@
     "run3_1s",
     "run4_1s",
     "run5_1s",
-    "run6_1s"
+    "run11_1s"
   ],
   "selections": {
     "gBR_sBM_cAll_d04_mBR0_ch02_seg000": {
-      "best_run": "run6_1s",
+      "best_run": "run4_1s",
       "emb_dist": 1.1735820770263672
     },
     "gHO_sBM_cAll_d21_mHO5_ch02_seg000": {
-      "best_run": "run6_1s",
+      "best_run": "run5_1s",
       "emb_dist": 2.5911176204681396
     },
     "gJB_sBM_cAll_d09_mJB5_ch02_seg000": {
-      "best_run": "run6_1s",
+      "best_run": "run5_1s",
       "emb_dist": 2.207047462463379
     },
     "gJS_sBM_cAll_d01_mJS3_ch02_seg001": {
-      "best_run": "run6_1s",
+      "best_run": "run3_1s",
       "emb_dist": 1.6441185474395752
     },
     "gKR_sBM_cAll_d28_mKR2_ch02_seg002": {
-      "best_run": "run6_1s",
+      "best_run": "run4_1s",
       "emb_dist": 0.969515860080719
     },
     "gLH_sBM_cAll_d17_mLH4_ch02_seg001": {
-      "best_run": "run6_1s",
+      "best_run": "run4_1s",
       "emb_dist": 1.5325604677200317
     },
     "gLO_sBM_cAll_d13_mLO2_ch02_seg001": {
-      "best_run": "run6_1s",
+      "best_run": "run4_1s",
       "emb_dist": 1.4931994676589966
     },
     "gMH_sBM_cAll_d22_mMH3_ch02_seg001": {
-      "best_run": "run6_1s",
+      "best_run": "run5_1s",
       "emb_dist": 1.2161800861358643
     },
     "gPO_sBM_cAll_d11_mPO1_ch02_seg000": {
-      "best_run": "run6_1s",
+      "best_run": "run3_1s",
       "emb_dist": 1.5215542316436768
     },
     "gWA_sBM_cAll_d25_mWA0_ch02_seg002": {
-      "best_run": "run6_1s",
+      "best_run": "run2_1s",
       "emb_dist": 1.151121735572815
     }
-  },
-  "note": "replaced with run6_1s (fixed prefix method)"
+  }
 }

@@ -1,0 +1,382 @@
+{
+  "metric": "best_per_genre_by_vggish_embedding_distance",
+  "winners": [
+    {
+      "genre": "gBR",
+      "genre_name": "Break",
+      "seq": "gBR_sBM_cAll_d04_mBR0_ch02_seg000",
+      "emb_dist": 1.3913884162902832,
+      "BAS": 0.4514637801319928,
+      "n_clips_in_genre": 10
+    },
+    {
+      "genre": "gHO",
+      "genre_name": "Housing",
+      "seq": "gHO_sBM_cAll_d21_mHO5_ch02_seg000",
+      "emb_dist": 2.8587846755981445,
+      "BAS": 0.10938422070910583,
+      "n_clips_in_genre": 1
+    },
+    {
+      "genre": "gJB",
+      "genre_name": "Jive & Ballet",
+      "seq": "gJB_sBM_cAll_d09_mJB5_ch02_seg000",
+      "emb_dist": 2.213099718093872,
+      "BAS": 0.4001225900652298,
+      "n_clips_in_genre": 2
+    },
+    {
+      "genre": "gJS",
+      "genre_name": "Jazz Slow",
+      "seq": "gJS_sBM_cAll_d01_mJS3_ch02_seg001",
+      "emb_dist": 1.8967663049697876,
+      "BAS": 0.029591396757696613,
+      "n_clips_in_genre": 4
+    },
+    {
+      "genre": "gKR",
+      "genre_name": "Krump",
+      "seq": "gKR_sBM_cAll_d28_mKR2_ch02_seg002",
+      "emb_dist": 0.8401761651039124,
+      "BAS": 0.4133758375863373,
+      "n_clips_in_genre": 6
+    },
+    {
+      "genre": "gLH",
+      "genre_name": "LA Hip-Hop",
+      "seq": "gLH_sBM_cAll_d17_mLH4_ch02_seg001",
+      "emb_dist": 2.0779550075531006,
+      "BAS": 0.19405384447958765,
+      "n_clips_in_genre": 4
+    },
+    {
+      "genre": "gLO",
+      "genre_name": "Lock",
+      "seq": "gLO_sBM_cAll_d13_mLO2_ch02_seg001",
+      "emb_dist": 1.9102879762649536,
+      "BAS": 0.11057502025944325,
+      "n_clips_in_genre": 6
+    },
+    {
+      "genre": "gMH",
+      "genre_name": "Middle Hip-Hop",
+      "seq": "gMH_sBM_cAll_d22_mMH3_ch02_seg001",
+      "emb_dist": 1.540751338005066,
+      "BAS": 0.29487567868384656,
+      "n_clips_in_genre": 4
+    },
+    {
+      "genre": "gPO",
+      "genre_name": "Pop",
+      "seq": "gPO_sBM_cAll_d11_mPO1_ch02_seg000",
+      "emb_dist": 0.9144058227539062,
+      "BAS": 0.3644148513691559,
+      "n_clips_in_genre": 8
+    },
+    {
+      "genre": "gWA",
+      "genre_name": "Waack",
+      "seq": "gWA_sBM_cAll_d25_mWA0_ch02_seg002",
+      "emb_dist": 1.444132685661316,
+      "BAS": 0.26484955809890626,
+      "n_clips_in_genre": 10
+    }
+  ],
+  "all_scores": {
+    "gBR": [
+      {
+        "seq": "gBR_sBM_cAll_d04_mBR0_ch02_seg000",
+        "emb_dist": 1.3913884162902832,
+        "BAS": 0.4514637801319928
+      },
+      {
+        "seq": "gBR_sBM_cAll_d05_mBR0_ch02_seg002",
+        "emb_dist": 1.412710189819336,
+        "BAS": 0.2766419098135728
+      },
+      {
+        "seq": "gBR_sBM_cAll_d05_mBR0_ch02_seg003",
+        "emb_dist": 1.4436014890670776,
+        "BAS": 0.15710664866137927
+      },
+      {
+        "seq": "gBR_sBM_cAll_d04_mBR0_ch02_seg001",
+        "emb_dist": 1.4611738920211792,
+        "BAS": 0.19242321826298686
+      },
+      {
+        "seq": "gBR_sBM_cAll_d04_mBR0_ch02_seg003",
+        "emb_dist": 1.8698232173919678,
+        "BAS": 0.06408465654749304
+      },
+      {
+        "seq": "gBR_sBM_cAll_d04_mBR0_ch02_seg002",
+        "emb_dist": 2.078486919403076,
+        "BAS": 0.5011054597803164
+      },
+      {
+        "seq": "gBR_sBM_cAll_d05_mBR0_ch02_seg000",
+        "emb_dist": 2.2101213932037354,
+        "BAS": 0.04879923367579759
+      },
+      {
+        "seq": "gBR_sBM_cAll_d05_mBR0_ch02_seg004",
+        "emb_dist": 2.2250449657440186,
+        "BAS": 0.11813849509704012
+      },
+      {
+        "seq": "gBR_sBM_cAll_d04_mBR0_ch02_seg004",
+        "emb_dist": 2.4293527603149414,
+        "BAS": 0.24826573457764112
+      },
+      {
+        "seq": "gBR_sBM_cAll_d05_mBR0_ch02_seg001",
+        "emb_dist": 2.5780909061431885,
+        "BAS": 0.13940002402629198
+      }
+    ],
+    "gHO": [
+      {
+        "seq": "gHO_sBM_cAll_d21_mHO5_ch02_seg000",
+        "emb_dist": 2.8587846755981445,
+        "BAS": 0.10938422070910583
+      }
+    ],
+    "gJB": [
+      {
+        "seq": "gJB_sBM_cAll_d09_mJB5_ch02_seg000",
+        "emb_dist": 2.3757193088531494,
+        "BAS": 0.4001225900652298
+      },
+      {
+        "seq": "gJB_sBM_cAll_d08_mJB5_ch02_seg000",
+        "emb_dist": 2.3776204586029053,
+        "BAS": 0.18128509498438733
+      }
+    ],
+    "gJS": [
+      {
+        "seq": "gJS_sBM_cAll_d01_mJS3_ch02_seg000",
+        "emb_dist": 1.870609164237976,
+        "BAS": 0.029591396757696613
+      },
+      {
+        "seq": "gJS_sBM_cAll_d01_mJS3_ch02_seg001",
+        "emb_dist": 2.043241024017334,
+        "BAS": 0.37745596825266586
+      },
+      {
+        "seq": "gJS_sBM_cAll_d03_mJS3_ch02_seg000",
+        "emb_dist": 2.6637556552886963,
+        "BAS": 0.24750154679193134
+      },
+      {
+        "seq": "gJS_sBM_cAll_d03_mJS3_ch02_seg001",
+        "emb_dist": 3.0539379119873047,
+        "BAS": 0.27186325301025044
+      }
+    ],
+    "gKR": [
+      {
+        "seq": "gKR_sBM_cAll_d28_mKR2_ch02_seg002",
+        "emb_dist": 0.8401761651039124,
+        "BAS": 0.4133758375863373
+      },
+      {
+        "seq": "gKR_sBM_cAll_d30_mKR2_ch02_seg002",
+        "emb_dist": 1.0154521465301514,
+        "BAS": 0.3930399094808495
+      },
+      {
+        "seq": "gKR_sBM_cAll_d28_mKR2_ch02_seg001",
+        "emb_dist": 1.711463212966919,
+        "BAS": 0.13519112312365966
+      },
+      {
+        "seq": "gKR_sBM_cAll_d30_mKR2_ch02_seg001",
+        "emb_dist": 1.7722235918045044,
+        "BAS": 0.36793800111141944
+      },
+      {
+        "seq": "gKR_sBM_cAll_d30_mKR2_ch02_seg000",
+        "emb_dist": 2.041229009628296,
+        "BAS": 0.22133158022648827
+      },
+      {
+        "seq": "gKR_sBM_cAll_d28_mKR2_ch02_seg000",
+        "emb_dist": 2.383070945739746,
+        "BAS": 0.37535640685550703
+      }
+    ],
+    "gLH": [
+      {
+        "seq": "gLH_sBM_cAll_d18_mLH4_ch02_seg001",
+        "emb_dist": 2.3646254539489746,
+        "BAS": 0.19405384447958765
+      },
+      {
+        "seq": "gLH_sBM_cAll_d17_mLH4_ch02_seg001",
+        "emb_dist": 2.3801205158233643,
+        "BAS": 0.44253856027058863
+      },
+      {
+        "seq": "gLH_sBM_cAll_d17_mLH4_ch02_seg000",
+        "emb_dist": 2.5031869411468506,
+        "BAS": 0.1275805455500546
+      },
+      {
+        "seq": "gLH_sBM_cAll_d18_mLH4_ch02_seg000",
+        "emb_dist": 2.900437831878662,
+        "BAS": 0.0
+      }
+    ],
+    "gLO": [
+      {
+        "seq": "gLO_sBM_cAll_d15_mLO2_ch02_seg002",
+        "emb_dist": 1.230180263519287,
+        "BAS": 0.11057502025944325
+      },
+      {
+        "seq": "gLO_sBM_cAll_d13_mLO2_ch02_seg002",
+        "emb_dist": 1.7563934326171875,
+        "BAS": 0.3220628281015733
+      },
+      {
+        "seq": "gLO_sBM_cAll_d13_mLO2_ch02_seg000",
+        "emb_dist": 1.887632131576538,
+        "BAS": 0.2707211424719513
+      },
+      {
+        "seq": "gLO_sBM_cAll_d15_mLO2_ch02_seg000",
+        "emb_dist": 2.002350091934204,
+        "BAS": 0.38216647679700033
+      },
+      {
+        "seq": "gLO_sBM_cAll_d13_mLO2_ch02_seg001",
+        "emb_dist": 2.336229085922241,
+        "BAS": 0.2633780929354823
+      },
+      {
+        "seq": "gLO_sBM_cAll_d15_mLO2_ch02_seg001",
+        "emb_dist": 2.730809211730957,
+        "BAS": 0.503311636888085
+      }
+    ],
+    "gMH": [
+      {
+        "seq": "gMH_sBM_cAll_d22_mMH3_ch02_seg001",
+        "emb_dist": 1.540751338005066,
+        "BAS": 0.29487567868384656
+      },
+      {
+        "seq": "gMH_sBM_cAll_d24_mMH3_ch02_seg000",
+        "emb_dist": 1.6877589225769043,
+        "BAS": 0.3693878372672501
+      },
+      {
+        "seq": "gMH_sBM_cAll_d24_mMH3_ch02_seg001",
+        "emb_dist": 2.1878485679626465,
+        "BAS": 0.3571693018986172
+      },
+      {
+        "seq": "gMH_sBM_cAll_d22_mMH3_ch02_seg000",
+        "emb_dist": 2.561661958694458,
+        "BAS": 0.3210973386057347
+      }
+    ],
+    "gPO": [
+      {
+        "seq": "gPO_sBM_cAll_d11_mPO1_ch02_seg003",
+        "emb_dist": 1.1430336236953735,
+        "BAS": 0.3644148513691559
+      },
+      {
+        "seq": "gPO_sBM_cAll_d11_mPO1_ch02_seg000",
+        "emb_dist": 1.5978567600250244,
+        "BAS": 0.10079661765985913
+      },
+      {
+        "seq": "gPO_sBM_cAll_d11_mPO1_ch02_seg001",
+        "emb_dist": 1.748819351196289,
+        "BAS": 0.2200926976150192
+      },
+      {
+        "seq": "gPO_sBM_cAll_d10_mPO1_ch02_seg001",
+        "emb_dist": 2.1750383377075195,
+        "BAS": 0.30441599007485126
+      },
+      {
+        "seq": "gPO_sBM_cAll_d10_mPO1_ch02_seg000",
+        "emb_dist": 2.194854259490967,
+        "BAS": 0.22944437892020725
+      },
+      {
+        "seq": "gPO_sBM_cAll_d10_mPO1_ch02_seg003",
+        "emb_dist": 2.222695827484131,
+        "BAS": 0.0733948317871459
+      },
+      {
+        "seq": "gPO_sBM_cAll_d11_mPO1_ch02_seg002",
+        "emb_dist": 2.2252490520477295,
+        "BAS": 0.15421577059514519
+      },
+      {
+        "seq": "gPO_sBM_cAll_d10_mPO1_ch02_seg002",
+        "emb_dist": 2.4344866275787354,
+        "BAS": 0.24463415921674073
+      }
+    ],
+    "gWA": [
+      {
+        "seq": "gWA_sBM_cAll_d25_mWA0_ch02_seg002",
+        "emb_dist": 1.444132685661316,
+        "BAS": 0.26484955809890626
+      },
+      {
+        "seq": "gWA_sBM_cAll_d25_mWA0_ch02_seg000",
+        "emb_dist": 1.7808727025985718,
+        "BAS": 0.1459480138904411
+      },
+      {
+        "seq": "gWA_sBM_cAll_d26_mWA0_ch02_seg004",
+        "emb_dist": 1.888870358467102,
+        "BAS": 0.0036526218380913333
+      },
+      {
+        "seq": "gWA_sBM_cAll_d26_mWA0_ch02_seg000",
+        "emb_dist": 1.950968623161316,
+        "BAS": 0.05643791221960767
+      },
+      {
+        "seq": "gWA_sBM_cAll_d25_mWA0_ch02_seg001",
+        "emb_dist": 1.997530221939087,
+        "BAS": 0.0
+      },
+      {
+        "seq": "gWA_sBM_cAll_d26_mWA0_ch02_seg001",
+        "emb_dist": 2.1493513584136963,
+        "BAS": 0.3109650900124938
+      },
+      {
+        "seq": "gWA_sBM_cAll_d26_mWA0_ch02_seg003",
+        "emb_dist": 2.27119517326355,
+        "BAS": 0.3795373132497964
+      },
+      {
+        "seq": "gWA_sBM_cAll_d26_mWA0_ch02_seg002",
+        "emb_dist": 2.3046603202819824,
+        "BAS": 0.2087549720034161
+      },
+      {
+        "seq": "gWA_sBM_cAll_d25_mWA0_ch02_seg003",
+        "emb_dist": 2.618227005004883,
+        "BAS": 0.35156837094283133
+      },
+      {
+        "seq": "gWA_sBM_cAll_d25_mWA0_ch02_seg004",
+        "emb_dist": 4.256176471710205,
+        "BAS": 0.25450818436732486
+      }
+    ]
+  }
+}
